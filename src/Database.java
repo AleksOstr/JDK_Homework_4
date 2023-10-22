@@ -2,7 +2,7 @@ import java.util.Collection;
 
 public interface Database<T> {
 
-    void addNew(T item);
+    void addNew(String phoneNumber, String name, int experience);
 
     T findById(int id);
 
