@@ -43,4 +43,14 @@ public class Worker {
     public void setExperience(int experience) {
         this.experience = experience;
     }
+
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "id=" + id +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", name='" + name + '\'' +
+                ", experience=" + experience +
+                '}';
+    }
 }
